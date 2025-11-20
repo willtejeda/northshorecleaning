@@ -6,15 +6,20 @@ import Navigation from '@/components/Navigation'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'North Shore Cleaning Pros | Trusted Home & Commercial Cleaning',
-  description: 'Professional cleaning services in Newburyport, MA. Eco-friendly, insured & bonded. Home cleaning, commercial cleaning, deep cleaning. Get your free estimate today!',
-  keywords: 'cleaning service Newburyport, home cleaning, commercial cleaning, deep cleaning, move out cleaning, carpet cleaning, eco-friendly cleaning',
+  title: 'North Shore Cleaning Pros | Airbnb Turnover Specialists | Boston & North Shore MA',
+  description: 'Professional Airbnb and vacation rental cleaning services in Greater Boston & North Shore. Same-day turnovers, photo documentation, backup cleaners. Trusted by 500+ hosts. Call 978-312-7711',
+  keywords: 'Airbnb cleaning Newburyport, vacation rental cleaning North Shore, same-day turnover cleaning Boston, Airbnb cleaning service Massachusetts, short-term rental cleaning, Airbnb turnover Salem, VRBO cleaning Gloucester',
   openGraph: {
-    title: 'North Shore Cleaning Pros',
-    description: 'Trusted partner for sparkling clean homes and businesses',
+    title: 'North Shore Cleaning Pros - Airbnb Turnover Specialists',
+    description: 'Same-day turnovers, photo documentation, backup cleaners. Trusted by 500+ Airbnb hosts across Greater Boston & North Shore.',
     type: 'website',
     locale: 'en_US',
     siteName: 'North Shore Cleaning Pros',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'North Shore Cleaning Pros - Airbnb Turnover Specialists',
+    description: 'Professional Airbnb cleaning with same-day turnovers. Serving Greater Boston & North Shore.',
   },
 }
 
@@ -24,10 +29,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.className} antialiased`}>
         <Navigation />
-        {children}
+        <main className="pt-20">
+          {children}
+        </main>
       </body>
     </html>
   )
