@@ -50,7 +50,7 @@ export default function FAQPreview() {
         {/* CTA */}
         <div className="text-center">
           <p className="text-gray-700 mb-6">
-            Have more questions? We've got answers!
+            Have more questions? We&apos;ve got answers!
           </p>
           <Link
             href="/faq"

@@ -19,7 +19,7 @@ export default function Services() {
       description: 'Get your deposit back or start fresh in your new home',
       icon: '📦',
       features: ['Complete cleanout', 'Cabinet interiors', 'Appliance cleaning', 'Final touch-ups'],
-      details: 'Whether you\'re moving in or out, our move cleaning service ensures every corner is spotless. We help you get your security deposit back or start fresh in your new space.'
+      details: 'Whether you&apos;re moving in or out, our move cleaning service ensures every corner is spotless. We help you get your security deposit back or start fresh in your new space.'
     },
     {
       title: 'Commercial Cleaning',
@@ -69,7 +69,7 @@ export default function Services() {
                 <p className="text-gray-700 mb-6">{service.description}</p>
                 
                 <div className="mb-6">
-                  <h4 className="font-semibold text-gray-900 mb-3">What's Included:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3">What&apos;s Included:</h4>
                   <ul className="space-y-2">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center text-sm text-gray-700">
@@ -96,7 +96,7 @@ export default function Services() {
             Not Sure Which Service is Right for You?
           </h2>
           <p className="text-xl text-white mb-8">
-            We'll help you choose the perfect cleaning package during your free consultation. No obligation, just expert advice tailored to your situation.
+            We&apos;ll help you choose the perfect cleaning package during your free consultation. No obligation, just expert advice tailored to your situation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

@@ -49,7 +49,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Have questions? We've got answers! Here are some of the most common questions we receive from our clients.
+            Have questions? We&apos;ve got answers! Here are some of the most common questions we receive from our clients.
           </p>
         </div>
       </section>
@@ -94,10 +94,10 @@ export default function FAQ() {
           {/* CTA */}
           <div className="text-center">
             <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Don't see your question here?
+              Don&apos;t see your question here?
             </h3>
             <p className="text-gray-700 mb-8">
-              Feel free to contact us directly. We're always happy to help!
+              Feel free to contact us directly. We&apos;re always happy to help!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

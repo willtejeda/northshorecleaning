@@ -39,7 +39,7 @@ export default function Testimonials() {
             What Your Neighbors Are Saying
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Join hundreds of satisfied customers across the North Shore who've discovered 
+            Join hundreds of satisfied customers across the North Shore who&apos;ve discovered
             the peace of mind that comes with a truly reliable cleaning service.
           </p>
         </div>
@@ -59,7 +59,7 @@ export default function Testimonials() {
 
               {/* Quote */}
               <blockquote className="text-gray-700 mb-6 leading-relaxed">
-                "{testimonial.text}"
+                &ldquo;{testimonial.text}&rdquo;
               </blockquote>
 
               {/* Author Info */}

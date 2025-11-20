@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Link from 'next/link'
 
 export default function CTA() {
   const [formData, setFormData] = useState({
@@ -32,7 +31,7 @@ export default function CTA() {
             Ready for a Cleaner, Stress-Free Home?
           </h2>
           <p className="text-xl text-white mb-8">
-            Join hundreds of busy families across the North Shore who've discovered 
+            Join hundreds of busy families across the North Shore who&apos;ve discovered
             the joy of coming home to a spotless house. Get your free estimate today!
           </p>
         </div>

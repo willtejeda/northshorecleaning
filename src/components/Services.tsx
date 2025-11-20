@@ -81,7 +81,7 @@ export default function Services() {
             Not Sure Which Service You Need?
           </h3>
           <p className="text-white text-lg mb-8 max-w-2xl mx-auto">
-            We'll help you choose the perfect cleaning package during your free consultation. 
+            We&apos;ll help you choose the perfect cleaning package during your free consultation.
             No obligation, just expert advice tailored to your situation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

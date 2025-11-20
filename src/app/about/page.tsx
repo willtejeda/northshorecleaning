@@ -26,7 +26,7 @@ export default function About() {
             </p>
             
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Whether you're a homeowner looking for reliable house cleaning, deep cleaning, or move-in/move-out services—or a business owner in need of spotless office or retail cleaning—we've got you covered. Our experienced, fully-insured team is dedicated to delivering sparkling results with eco-friendly products, personalized service, and flexible scheduling to fit your lifestyle or work hours.
+              Whether you&apos;re a homeowner looking for reliable house cleaning, deep cleaning, or move-in/move-out services—or a business owner in need of spotless office or retail cleaning—we&apos;ve got you covered. Our experienced, fully-insured team is dedicated to delivering sparkling results with eco-friendly products, personalized service, and flexible scheduling to fit your lifestyle or work hours.
             </p>
             
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
@@ -34,7 +34,7 @@ export default function About() {
             </p>
             
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Serving the North Shore and Southern New Hampshire communities, we're more than just a cleaning company—we're your local cleaning partner.
+              Serving the North Shore and Southern New Hampshire communities, we&apos;re more than just a cleaning company—we&apos;re your local cleaning partner.
             </p>
             
             <p className="text-gray-700 text-lg leading-relaxed font-semibold">
